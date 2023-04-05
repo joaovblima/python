@@ -1,0 +1,13 @@
+reta1 = int(input("Digite o tamanho da primeira reta:"))
+reta2 = int(input("Digite o tamanho da segunda reta:"))
+reta3 = int(input("Digite o tamanho da terceira reta:"))
+if reta1 + reta2 > reta3 and reta1 + reta3 > reta2 and reta2 + reta3 > reta1:
+    print("É possivel fazer um triangulo.")
+else:
+    print("Não é possivel fazer um triangulo com essas retas.")
+if reta1 == reta2 == reta3:
+    print("Triângulo equilatero")
+elif reta1 == reta2 or reta1 == reta3 or reta2 == reta3:
+    print("Triangulo isosceles")
+elif reta1 != reta2 != reta3:
+    print("Triangulo escaleno")
