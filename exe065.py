@@ -1,12 +1,3 @@
-'''
-065:Crie um programa que leia varios numeros inteiros
-pelo teclado. No final da execução, mostre a media entre todos
-os valores e qual foi o malior valor e o menor valores lidos.
-O programa dever perguntar ao usuario se ele quer ou nao continuar
-a digitar valores.
-'''
-
-
 num = int(input("Digite um numero inteiro:"))
 press = str(input("Quer continuar? [S/N]"))
 qtd = 1
