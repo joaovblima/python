@@ -1,13 +1,3 @@
-'''
-063: Escreva um programa que leia um numero n inteiro qualquer
-e mostre na tela os n primeiros elementos de uma Sequencia de
-Fibonacci.
-'''
-
-'''
-Sequencia Fibonacci é uma sequencia matematica em que cada termo é a soma dos dois termos anteriores, começando com 
-0 e 1.
-'''
 print("SEQUENCIA FIBONACCI")
 n = int(input("Quantos termos da sequência de Fibonacci você quer gerar? "))
 t1 = 0
